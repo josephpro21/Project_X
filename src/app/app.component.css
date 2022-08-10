@@ -1,0 +1,108 @@
+.main {
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+}
+
+.LoginForm {
+    position: relative;
+    overflow: hidden;
+    color: teal;
+    display: block;
+    text-align: center;
+    margin: 40px;
+    padding: 20px;
+    width: 350px;
+    height: 60vh;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 0 5px 10px;
+    animation-duration: 3s;
+    animation-name: side;
+    transition: 9s ease-in-out;
+    -webkit-transition: 9s ease-in-out;
+    -moz-transition: 9s ease-in-out;
+    -ms-transition: 9s ease-in-out;
+    -o-transition: 9s ease-in-out;
+}
+
+input {
+    margin: 10px;
+    padding: 10px;
+    border-color: teal;
+    border-width: 1px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    outline: none;
+}
+
+.txt:hover {
+    width: 180px;
+}
+
+.btn {
+    color: white;
+    background-color: teal;
+    font-weight: bold;
+    border: none;
+    width: 90px;
+}
+
+.btn:hover {
+    width: 94px;
+}
+
+.txt {
+    padding-left: 20px;
+}
+
+.LoginForm a:hover {
+    color: rgba(0, 128, 128, 0.459);
+}
+
+.LoginForm a {
+    text-decoration: none;
+    color: teal;
+}
+
+.RegForm {
+    position: relative;
+    overflow: hidden;
+    color: teal;
+    display: none;
+    text-align: center;
+    animation-duration: 3s;
+    margin: 40px;
+    padding: 20px;
+    width: 350px;
+    height: 80vh;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 0 5px 10px;
+    animation-duration: 3s;
+    animation-name: side;
+    transition: 5s;
+    -webkit-transition: 5s;
+    -moz-transition: 5s;
+    -ms-transition: 5s;
+    -o-transition: 5s;
+}
+
+@keyframes side {
+    from {
+        opacity: 5%;
+    }
+}
+
+.LoginForm i {
+    position: relative;
+}
